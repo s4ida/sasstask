@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#firstsection {
+  width: 100%;
+  height: 90%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+#firstsection .firstdiv {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#firstsection .firstdiv .firstdivitem {
+  width: 50%;
+  height: 70%;
+  font-family: Arial;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#firstsection .firstdiv .firstdivitem .firstdivtext .text {
+  font-size: 25px;
+  color: rgb(255, 119, 0);
+  margin-bottom: 20px;
+}
+#firstsection .firstdiv .firstdivitem .firstdivtext h1 {
+  font-size: 50px;
+}
+#firstsection .firstdiv .firstdivitem .firstdivtext .contentfirst {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#firstsection .firstdiv .firstdivitem .cheficon {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#firstsection .firstdiv .firstdivitem .cheficon .cheficon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 40%;
+}
+#firstsection .firstdiv .firstdivitem .cheficon .cheficon2 img {
+  width: 20%;
+  height: 50%;
+}
+#firstsection .firstdiv .firstdivitem .cheficon .cheficon2 p {
+  font-size: 20px;
+  margin-left: 5px;
+}
+#firstsection .firstdiv .chefman {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#firstsection .firstdiv .chefman img {
+  width: 100%;
+  height: auto;
+}
+
+#secondsection {
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secondsection .seconddiv {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secondsection .seconddiv .foodimage {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secondsection .seconddiv .foodimage img {
+  width: 100%;
+  height: auto;
+}
+#secondsection .seconddiv .seconddivitem {
+  width: 50%;
+  height: 70%;
+  font-family: Arial;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#secondsection .seconddiv .seconddivitem .text2 .titlee {
+  font-size: 25px;
+  color: rgb(255, 119, 0);
+  margin-bottom: 20px;
+}
+#secondsection .seconddiv .seconddivitem .text2 h1 {
+  font-size: 45px;
+}
+#secondsection .seconddiv .seconddivitem .text2 .text3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#secondsection .seconddiv .seconddivitem .text4 {
+  width: 100%;
+  height: 25%;
+}
+#secondsection .seconddiv .seconddivitem .text4 p {
+  font-size: 20px;
+}
+#secondsection .seconddiv .seconddivitem .btn {
+  margin-top: 20px;
+  height: 85px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 119, 0);
+  width: 300px;
+  font-size: 20px;
+  color: gray;
+}
+#secondsection .seconddiv .seconddivitem .btn:hover {
+  background-color: rgb(255, 119, 0);
+  color: #FFFFFF;
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 661px) and (max-width: 992px) {
+  #firstsection .firstdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  #firstsection .firstdiv .firstdivitem {
+    display: block;
+    width: 100%;
+  }
+  #firstsection .firstdiv .chefman {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 661px) {
+  #secondsection .seconddiv {
+    display: flex;
+    flex-direction: column;
+  }
+  #secondsection .seconddiv .seconddivitem {
+    display: block;
+    width: 100%;
+  }
+  #secondsection .seconddiv .foodimage {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+}
